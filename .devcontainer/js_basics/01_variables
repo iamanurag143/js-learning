@@ -4,7 +4,7 @@ var accountPassword = "12345"
 accountCity = "Muzaffarpur"
 let accountState; // if we declare variable like this then it will be undefined
 
-//accountId =345 // cannot change in const
+//accountId =345 // cannot change and redeclare in const
 //console.log(accountId)
 accountEmail ="xyz@google.com" //can change in let but can't redeclare it // scope : within block
 console.log(accountEmail)
