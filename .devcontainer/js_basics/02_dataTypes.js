@@ -20,6 +20,8 @@ there are some more datatype :
 
 4. object
 
+bigint // when we have to store large number // rarely we use it
+
 */
 
 let xyz;
