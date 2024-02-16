@@ -29,3 +29,42 @@ let abc = null ;
 
 console.log(typeof xyz )  // output: undefined
 console.log(typeof abc ) // output: object // note: null is also a datatype in javascript but when we check it gives object as datatype
+
+
+
+
+/*
+Datatype is divided on the basis of :  how to store data in memory  & how to access it
+
+There are two types of Datatypes:
+
+1) Primitive : call by value => only copy of data is given to us not original data from memory location
+
+   Datatype  ReturnType
+
+   String => string
+   Number => number
+   Boolean => boolean
+   null => object // when we check (typeof null), it will return object
+   undefined => undefined
+   Symbol => symbol
+   BigInt => bigint
+
+
+2) Non-Primitive : call by reference => here reference of memory location is given to us, so when we changed the data here it will change data from memory location also   
+
+    Datatype  ReturnType
+
+    Array => object
+    Objects => object
+    Functions => function //object function
+
+*/   
+
+
+
+
+/*
+javascript is dynamically typed language i.e variables types are determined at runtime and we do not need to
+explicitly declare the type of variable before using it.
+*/
