@@ -50,7 +50,7 @@ console.log("Multiplication:",output) //output: Multiplication: 40
 
 function loginUserMessage(username){
     if(!username){
-        // "!username" means username is undefined //if we not pass anything in the function then it will return undefined and undefined is false value so it will never enter in that if block
+        // "!username" means username is undefined and undefines is false so !username means true  //if we not pass anything in the function then it will return undefined and undefined is false value so it will never enter in that if block
         console.log("please enter a username")
     }
     else{
@@ -66,7 +66,7 @@ console.log(loginUserMessage())  //output: please enter a username
 
 
 
-/* */
+/* fumction with default value */
 
 function greetings(name=""){
     return `welcome ${name}!`

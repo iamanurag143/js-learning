@@ -23,3 +23,47 @@ console.log("value of x:",x)  //output: value of x: 88  // initially value of x 
 
 console.log("value of d:",d) //output: 60  // we can access it because it is declare with var //that's why we don't have to use var
 
+
+
+
+
+
+/* scope : function inside function */    //similar concept for conditionals also
+
+function checkScope(){
+    let a= 13
+    let b= 15
+    function innerFunc(){
+        let c= 13
+        return `value of inner function: ${a+c}`
+    }
+    console.log(innerFunc())
+    //return `value of outer function : ${a+b+c}`  // we can't access innerFunc() variable "C" because its scope is within innerFunc() only (chhota bade se le sakta hai but bada chhote se nahi)
+    return `value of outer function : ${a+b}`
+}
+let val = checkScope()
+console.log(val) //value of inner function: 26     value of outer function : 28
+
+
+//console.log(innerFunc())  // similarly we can't access innerFunc() outside checkScope(), because it's scope is within checkScope() 
+
+
+
+
+
+/* mini-hoisting */
+
+
+console.log(addOne(5))  //output: 6
+
+function addOne(num){
+    return num+1
+}
+
+
+
+// console.log(addTwo(5)) // error: Cannot access 'addTwo' before initialization // when we store function inside variable then we can't call it before initialization
+
+let addTwo = function(num){
+    return num+2
+}
