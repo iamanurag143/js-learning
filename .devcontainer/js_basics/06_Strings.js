@@ -3,12 +3,12 @@
 
 let fName = "Anurag"
 let lName = "Atithi"
-console.log("My Full Name is " + fName + " " + lName)
+console.log("My Full Name is " + fName + " " + lName)  //output: My Full Name is Anurag Atithi
 
 
 //Modern way to use strings : STRING INTERPOLATION
 
-console.log (`Hello my full name is ${fName} ${lName} !`)    
+console.log (`Hello my full name is ${fName} ${lName} !`)    //output: Hello my full name is Anurag Atithi !
 
 /*
 here `` (backsticks) are used and ${fName} , ${lName} are place holder to use variables.
@@ -22,10 +22,10 @@ console.log (`Hello my full name is ${fName.slice(0,3)} ${lName} !`)  // output:
 // Ways to declare String :
 
 let name = "Anurag"   //basic way
-console.log(name)
+console.log(name)  //output: Anurag
 
 let fullName = new String("Anurag-Atithi")   // by using object
-console.log(fullName)
+console.log(fullName)  //output: [String: 'Anurag-Atithi']
 
 
 

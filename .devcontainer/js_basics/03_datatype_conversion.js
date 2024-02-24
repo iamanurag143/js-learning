@@ -16,12 +16,12 @@ let is LoggedInBoolean = Boolean(isLoggedIn) // now number isLoggedIn is convert
 
 
 let value = "33"
-console.log(typeof value);
-console.log(value)
+console.log(typeof value);  //output: string
+console.log(value)  //output: 33
 
 let convertValueInNumber = Number(value);
-console.log(typeof convertValueInNumber)
-console.log(convertValueInNumber)
+console.log(typeof convertValueInNumber) //output: number
+console.log(convertValueInNumber)  //output: 33
 
 
 
@@ -39,8 +39,8 @@ undefined => NaN // its value will be NaN but still datatype is converted into a
 */
 let a = "12aa"
 let aNumber = Number(a) 
-console.log(aNumber)
-console.log(typeof aNumber)
+console.log(aNumber) //output: NaN
+console.log(typeof aNumber)  //output: number
 
 
 /*
@@ -55,14 +55,14 @@ undefined => false
 let isLoggedIn = ""
 let isLoggedIn1 = "Anurag"
 let isloggedInBoolean = Boolean(isLoggedIn)
-console.log(isloggedInBoolean) 
-console.log(typeof isloggedInBoolean)
+console.log(isloggedInBoolean) //output:false
+console.log(typeof isloggedInBoolean) //output:boolean
 
 let isloggedInBoolean1 = Boolean(isLoggedIn1) 
-console.log(isloggedInBoolean1) 
-console.log(typeof isloggedInBoolean1) 
+console.log(isloggedInBoolean1) //output:true
+console.log(typeof isloggedInBoolean1) //output:boolean
 
 let x= 143;
 let xBoolean = Boolean(x)
-console.log(xBoolean)
-console.log(typeof xBoolean)
+console.log(xBoolean)  //output: true
+console.log(typeof xBoolean)  //output: boolean

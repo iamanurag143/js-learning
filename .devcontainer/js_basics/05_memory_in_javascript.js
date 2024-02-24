@@ -29,7 +29,7 @@ console.log(emailId) // iamanurag143@gmail.com
                                                              |---------|             |                   |
                                                              |---------|             |-------------------|
 
- In Non-primitive datatype, data is stored in Heap memory  i.e only data as well as memory location is given to us 
+ In Non-primitive datatype, data is stored in Heap memory  i.e data as well as memory location is given to us 
  hence when we try to assign it in other variable and change it, it will change data of that memory location  i.e original data will be changed 
  
  */
@@ -39,8 +39,8 @@ console.log(emailId) // iamanurag143@gmail.com
     lName : " Srivastava"
  }
 
- let myData1 = myData
- console.log(myData1)
+ let myData1 = myData  
+ console.log(myData1)  //output: { fName: 'Anurag', lName: ' Srivastava' }
  myData1.lName = " Atithi" // when we do this lName will change for both myData as well as myData1
- console.log(myData1)
- console.log (myData)
+ console.log(myData1)  //output: { fName: 'Anurag', lName: ' Atithi' }
+ console.log (myData)  //output: { fName: 'Anurag', lName: ' Atithi' }

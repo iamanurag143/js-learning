@@ -11,7 +11,7 @@ console.log(score1)
 //output: [Number: 200]
 
 
-//some bsic Number methods: //
+//some basic Number methods: //
 console.log(score1.toString()) //output: 200  //it will convert score1 (100 in number) into string (100 in string)
 console.log(score1.toFixed(2)) //output : 200.00  //after decimal it will fixed value in two digits only
 
@@ -43,6 +43,9 @@ let min = 10
 let max = 20
 
 console.log(Math.floor(Math.random() * (max-min +1)) + min )
+
+
+//console.log(Math.min([13,34,56,77,9])) //output:NaN //we can't pass array like that
 
 
 

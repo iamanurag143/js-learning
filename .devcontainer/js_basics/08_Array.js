@@ -4,7 +4,7 @@
 {} => braces or curly braces
 */
 
-// The Array object, as with arrays in other programming languages, storing a collection of Multiple items under a single variable
+// The Array object, as like arrays in other programming languages, storing a collection of Multiple items under a single variable
 // syntax: let myArray = [2,4,5.6,"Anurag",true]
 // when we change in copy of any array it will changes in original array too // It is non-premitive data type and stores in heap memory
 
@@ -67,13 +67,13 @@ console.log(marvelHeros.join(dcHeros)) //output: ThorWonder Women,Aquaman,FlashI
 
 let complexArray = [2,3,4,[5,6,7],[8,9,[10,11]]]
 
-let easyArray = complexArray.flat(Infinity)
+let easyArray = complexArray.flat(Infinity)  //here infinity is number of layers to flat , so basic hack is to use infinity as number of lays then it will check automatically
 
 console.log(easyArray)  //output: [2,3,4,5,6,7,8,9,10,11]
 
 
 
-// sometime we will have a case where we are iterating values and we want that values in an Array format
+// sometime we will have a case where we are iterating values of any datatypes and we want that values in an Array format
 // so we can use this
 
 let name= "Anurag"

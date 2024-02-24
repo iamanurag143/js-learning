@@ -20,16 +20,16 @@ console.log(sumOfNumbers(10,20,30,40,50))  //output: [ 30, 40, 50 ]  //here firs
 
 
 
-/*  passing an object inside function : use "anyobject" in parameter of function */
+/*  passing an object inside function :  */
 
 let items= {
     name : "pen",
     price :"$10"
 }
 
-function knowThePrice(anyobject){
+function knowThePrice(anyObject){
     // function knowThePrice(items){ return `item name is ${name} and price is ${price}`} //It will gives an error 
-    return `item name is ${anyobject.name} and price is ${anyobject.price}`
+    return `item name is ${anyObject.name} and price is ${anyObject.price}`
 }
 
 console.log(knowThePrice(items)) //output: item name is pen and price is $10
@@ -40,7 +40,7 @@ console.log(knowThePrice(items)) //output: item name is pen and price is $10
 
 
 
-/* passing an array inside function  : use "getArray" in parameter of that function */
+/* passing an array inside function  : */
 
 let arr = [100,200,200,400]
 

@@ -38,6 +38,8 @@ console.log(user.greeting()) //output: Hello user!!!  //we can access object fun
 
 console.log(user.greeting2()) //output: Hello Anurag, welcome!!!
 
+// console.log(user[0]) // output: undefined //we can't access it like that
+
 
 
 /* Changing value of object */
@@ -71,3 +73,4 @@ console.log(obj1) //output:{ name: 'Atithi', age: 25, [Symbol(Key1)]: 'myKey1' }
 //console.log(obj1["mySymbol"]) //Neither we can access symbol like that, we can't pass it like string because its type is symbol
 
 console.log(obj1[mySymbol]) //output: myKey1  //we have to access it like this
+
